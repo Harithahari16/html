@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+    
+    .container {
+      width: 300px;
+      padding: 16px;
+      background-color: white;
+      margin: 0 auto;
+      margin-top: 100px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    h2 {   
+      text-align: center;
+      color: grey;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      font-size :14px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+    
+    button {
+      background-color: #cc9464;
+      color: white;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 4px;
+    }
+ .forgot-password {
+      text-align: right;
+      font-size :12px;
+      margin-top: -12px;
+    }
+    
+    .forgot-password a {
+      color: grey;
+      text-decoration: none;
+    }
+.account {
+      text-align: center;
+      font-size :12px;
+      color:grey;
+      
+    }
+.account a{
+text-decoration: none;
+}
+.remember-me {
+     
+      font-size:12px;
+    }
+ .login-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .login-image img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    
+    
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+<div class="login-image">
+      <img src="login-person.png" alt="Login Person">
+    </div>
+    <h2>Login Here</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+ <div class="remember-me">
+        <input type="checkbox" id="rememberMe" name="rememberMe">
+        <label for="rememberMe">Remember Me</label>
+      </div>
+     
+      <div class="forgot-password">
+      <a href="#">Forgot Password?</a>
+      </div>
+
+      <button type="submit">Login</button>
+ <div class ="account">
+      <p >Don't have an account?<a href ="registrationform.html" >  Sign up</a></p>
+      </div>
+    </form>
+ 
+  </div>
+</body>
+</html>

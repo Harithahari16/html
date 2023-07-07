@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Simple Website</title>
+  <style>
+    /* CSS for the navigation bar */
+    header {
+     
+      background-color: #cc9464;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+	  font-family: Arial, sans-serif;
+    
+    }
+	header a {
+      margin-right: 20px;
+	  text-decoration: none;
+	  color :white;
+    }
+    
+    /* CSS for the main content section */
+    main {
+	font-family: Arial, sans-serif;
+      padding: 20px;
+	  
+	 
+    }
+	main h2 {
+      color :grey;
+	 
+    }
+    
+    /* CSS for the footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+	  font-family: Arial, sans-serif;
+     
+	 
+    }
+     /* CSS for the image content section */
+    .image-container {
+      overflow: hidden;
+    }
+    
+    .image-container img {
+      float: left;
+      margin-right: 10px;
+    }
+     /* CSS for the dog content section */
+    .dog-category {
+      clear: both;
+      margin-top: 40px;
+    }
+    
+    .dog-category h2 {
+      margin-bottom: 10px;
+    }
+    
+    .dog-category .image-container img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+	 /* CSS for the cat content section */
+	.cat-category {
+      clear: both;
+      margin-top: 60px;
+    }
+    
+    .cat-category h2 {
+      margin-bottom: 10px;
+    }
+    
+    .cat-category .image-container img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+	
+	.dog-category .image-container figure {
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .dog-category .image-container figcaption {
+      font-size: 14px;
+      color: #555;
+    }
+	.cat-category .image-container figure {
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .cat-category .image-container figcaption {
+      font-size: 14px;
+      color: #555;
+    }
+	 /* CSS for the socia content section */
+	 .social-icons {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+    
+    .social-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .social-icons a {
+      color: #fff;
+      font-size: 20px;
+    }
+    
+    .address {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo" width="120" height="70">
+    <nav>
+	  <a href="web.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="login.html">Login</a>
+      <a href="registrationform.html">Registration</a>
+      <a href="contact.html">Contact us</a>
+    </nav>
+	
+  </header>
+  
+  
+  <main>
+    <h2>Pets</h2>
+    
+    
+    <div class="image-container">
+     
+      <img src="dog.png" alt="Image 1" width="270" height="250">
+      <img src="cat.png" alt="Image 2" width="270" height="250">
+      <img src="bird.png" alt="Image 3" width="270" height="250">
+	   <img src="rabbit.png" alt="Image 4" width="270" height="250">
+    </div>
+    
+    <div class="dog-category">
+      <h2>Top Categories For Your Dog </h2>
+      <div class="image-container">
+	  <figure>
+        <img src="dogfud.png" alt="Dog Category 1" width="250" height="150">
+        <figcaption>Dog Food</figcaption>
+      </figure>
+	  <figure>
+        <img src="bet.png" alt="Dog Category 2" width="250" height="150">
+        <figcaption>Dog Accessories</figcaption>
+      </figure>
+	  <figure>
+         <img src="dogbed.png" alt="Dog Category 3" width="250" height="150">
+        <figcaption>Dog Bedding</figcaption>
+      </figure>
+	  <figure>
+        <img src="dogtoys.png" alt="Dog Category 4" width="250" height="150">
+        <figcaption>Dog Toys</figcaption>
+      </figure>
+     
+        
+       
+       
+		
+      </div>
+    </div>
+	
+	 <div class="cat-category">
+      <h2>Top Categories For Your Cat </h2>
+      <div class="image-container">
+	  <figure>
+        <img src="catfud.png" alt="cat Category 1" width="250" height="150">
+        <figcaption>Cat Food</figcaption>
+      </figure>
+	  	  <figure>
+        <img src="carrier.png" alt="cat Category 2" width="250" height="150">
+        <figcaption>Carrier </figcaption>
+      </figure>
+
+	  <figure>
+        <img src="catbed.png" alt="cat Category 3" width="250" height="150">
+        <figcaption>Cat Bed</figcaption>
+      </figure>
+
+	  <figure>
+       <img src="cattoys.png" alt="cat Category 4" width="250" height="150">
+        <figcaption>Cat Toys</figcaption>
+      </figure>
+
+        
+        
+        
+		
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+  <p>PET PARENTS ALSO SEARCHED:  Dog Food | Dry Dog Food | Cat Food | Wet Cat Food | Petsy Treats | Royal Canin | Petsy Deals | Royal Canin Dog Food | Pedigree Food | Whiskas | Cat Litter & Accessories | Cat Toys | Natural Treats | Fun Toys | New Products | Personalised Tags | Dog Collars & Leashes | Cat Harnesses | Sheba Cat Food | Hay | Vitamins & Supplements</p>
+ <p> Follow us </p>
+	<div class="footer-social-icons">
+      <a href="#"><img src="facebook.png" alt="Facebook" width="30" height="30"></a>
+      <a href="#"><img src="twitter.png" alt="Twitter" width="30" height="30"></a>
+      <a href="#"><img src="insta.png" alt="Instagram" width="30" height="30"></a>
+    </div>
+        
+     <p style="text-align: right;">1234 Main Street, Ernakulam , India</p>
+    <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
